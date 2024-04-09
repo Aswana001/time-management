@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Management - Students</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Time Management Logo">
+        <h1>Time Management - Students</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="students.html">Students</a></li>
+            <li><a href="students_tasks.html">Tasks</a></li>
+            <li><a href="students_schedule.html">Schedule</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="schedule">
+            <h2>Your Schedule</h2>
+            <p>Fill out your morning and evening schedule preferences:</p>
+            <form action="suggested_schedule.php" method="post">
+                <label for="morning_schedule">Morning Schedule:</label>
+                <input type="text" id="morning_schedule" name="morning_schedule" placeholder="Enter your morning schedule">
+                <label for="evening_schedule">Evening Schedule:</label>
+                <input type="text" id="evening_schedule" name="evening_schedule" placeholder="Enter your evening schedule">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+        <section id="tips">
+            <h2>Tips for Students</h2>
+            <div class="tip">
+                <img src="meditation.jpg" alt="Meditation">
+                <p>Take regular breaks and practice meditation to stay focused.</p>
+            </div>
+            <div class="tip">
+                <img src="stress_management.jpg" alt="Stress Management">
+                <p>Manage stress by organizing your tasks and setting realistic goals.</p>
+            </div>
+            <div class="tip">
+                <img src="family_time.jpg" alt="Family Time">
+                <p>Allocate time for family and friends to maintain a healthy work-life balance.</p>
+            </div>
+            <div class="tip">
+                <img src="skill_development.jpg" alt="Skill Development">
+                <p>Invest in your personal and professional growth through skill development.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Time Management</p>
+    </footer>
+</body>
+</html>
